@@ -8,7 +8,7 @@ function Logo () {
   return (
     <div className={styles.logo}>
       <IoLogoDiscord  className={styles.icon}/>
-      <Title level='h1' className={styles.title_logo}>{title}</Title>
+      <Title level='h1' className={styles.title__logo}>{title}</Title>
     </div>
   )
 }

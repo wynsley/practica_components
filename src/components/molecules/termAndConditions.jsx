@@ -5,9 +5,9 @@ import { Link } from "../atoms/link"
 function TermsAndConditions() {
   return (
     <p className={styles.termsConditions}>
-      By registering you agree to Discord&apos;s{" "}
-      <Link href="#">Terms of Service</Link> and{" "}
-      <Link href="#">Privacy Policy</Link>.
+      By registering, you agree to Discord&apos;s{" "}
+      <Link href="#" className={styles.smallLink}>Terms of Service</Link> and{" "}
+      <Link href="#" className={styles.smallLink}>Privacy Policy</Link>.
     </p>
   )
 }

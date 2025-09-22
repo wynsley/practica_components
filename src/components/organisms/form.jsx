@@ -17,7 +17,7 @@ function Form() {
         <FormInput label='PASSWORD' type='password' name='password' />
       </div>
       <Button />
-      <Link>Already have an account</Link>
+      <Link>Already have an account?</Link>
       <TermsAndConditions />
     </form>
   )
