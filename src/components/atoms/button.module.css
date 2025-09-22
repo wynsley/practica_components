@@ -1,19 +1,19 @@
 .button{
-  margin-top: -.2em;
   font-family: 'Roboto';
-  height: 2.3em ;
+  height: 2.5em ;
   background-color: var(--igth-violen);
   outline: none;
   border: none;
   border-radius: 3px;
-  font-size: 1em;
+  font-size: .95em;
+  color: var(--withe);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.281);
   transition: background-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 button:hover:not(:disabled) {
   background-color: #4752C4;
-  box-shadow: 0 2px 4px rgba(88, 101, 242, 0.4); 
+  box-shadow: 0 1px 4px rgba(88, 101, 242, 0.4); 
 }
 
 button:active:not(:disabled) {

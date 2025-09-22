@@ -17,6 +17,7 @@
 
 .icon:hover{
   transform: scale(1.07);
+  color: rgb(180, 206, 232);
 }
 
 .title__logo{
@@ -25,5 +26,7 @@
 }
 .title__logo:hover{
   transform: scale(1.02);
+    color: rgb(180, 206, 232);
+
 }
 
