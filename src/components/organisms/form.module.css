@@ -25,20 +25,3 @@
   flex-direction: column;
   gap: 1.2em;
 }
-.link{
-  text-decoration: none;
-  font-family: 'Roboto';
-  font-weight: 100;
-  font-size: .8em;
-}
-
-.termsConditions{
-  font-family: 'Roboto';
-  font-size: .8em ;
-  font-weight: 100;
-}
-
-
-.termsConditions a{
-  font-size: .9em;
-}
