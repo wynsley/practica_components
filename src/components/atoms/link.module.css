@@ -1,0 +1,14 @@
+.link {
+  font-family: 'Roboto';
+  color: var(--igth-violen); 
+  text-decoration: none;
+  font-weight: 300;
+  transition: color 0.2s ease-in-out;
+  font-size: .8em;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}

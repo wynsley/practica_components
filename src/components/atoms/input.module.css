@@ -1,0 +1,16 @@
+.input{
+  height: 2.8em;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--background-input) ;
+  border: 1px solid #000000;   
+  outline: none;            
+  padding: 8px;
+  border-radius: 4px;
+  transition: .3s ease ;
+}
+
+.input:focus {
+  border: 1px solid var(--dark-violen); 
+  box-shadow: 0 1px 2px var(--dark-violen); 
+}

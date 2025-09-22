@@ -1,0 +1,44 @@
+.form{
+  font-family: 'AlegreyaSans';
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  width: 31em;
+  height: 33em;
+  background-color: var(--gray);
+  border-radius: 5px;
+  box-shadow: var(--shadow-form);
+  padding: 2.5em;
+  color: var(--white);
+}
+
+.form__title{
+  margin-top: .5em;
+  font-family: 'Roboto';
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.container__inpForm{
+  display:flex ;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.link{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: .8em;
+}
+
+.termsConditions{
+  font-family: 'Roboto';
+  font-size: .8em ;
+  font-weight: 100;
+}
+
+
+.termsConditions a{
+  font-size: .9em;
+}
